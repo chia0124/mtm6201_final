@@ -1,0 +1,90 @@
+:root{
+    --bs-secondary-rgb: 255,146,50;
+    --bs-primary-rgb: 127,220,249;
+}
+
+.navbar-brand {max-width: 200px;}
+
+body {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.collapsed .bar {
+    fill: #5A7A84;
+}
+
+.collapsed .box {
+    fill: #7FDCF9;
+}
+
+rect {
+    transition: fill 0.2s;
+}
+
+#searchbar {
+    margin-top: 8px;
+}
+
+h1 {
+    margin-top: 8px;
+}
+
+#carousel-button {
+    border: 0;
+}
+
+#welcometext {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#welcometext > h1 {
+    margin-bottom: 0px;
+}
+
+#welcometext > p {
+    margin-bottom: 0px;
+}
+
+#abouttext1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#abouttext1 > h1 {
+    margin-bottom: 0px;
+}
+
+#abouttext1 > p {
+    margin-bottom: 0px;
+}
+
+#abouttext2 {
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#abouttext2 > h1 {
+    margin-bottom: 0px;
+}
+
+#abouttext2 > p {
+    margin-bottom: 0px;
+}
+
+.messageform {
+    padding: 20px;
+}
+
+#footertext {
+    margin-top: 16px;
+}
